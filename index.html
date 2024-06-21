@@ -5,16 +5,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
     <div class="Alinhamento">  <h1>Faça seu cadastro!</h1> </div>
 
     <div class="Alinhamento">
         <form action="">
             <label for="">Email</label>
-            <input name="Email" id="Email" type="text">
+            <input name="Email" id="Email" type="text" size="33.33%" maxlength="33.33%">
             <label for="">CPF</label>
-            <input name="CPF" id="CPF" type="text">
+            <input name="CPF" id="CPF" type="text" size="33.33%" maxlength="33.33%">
             <label for="">Senha</label>
-            <input name="Pass" id="Pass" type="password">
+            <input name="Pass" id="Pass" type="password" size="33.33%" maxlength="33.33%">
         </form>
     </div> 
 <br>
@@ -22,9 +23,9 @@
     <div class="Alinhamento">
         <form action="">
             <label for="">Nome</label>
-            <input name="Nome" id="Nome" type="text">
+            <input name="Nome" id="Nome" type="text" size="50%" maxlength="50%">
             <label for="">Sobreome</label>
-            <input name="Snome" id="Snome" type="text">
+            <input name="Snome" id="Snome" type="text" size="50%" maxlength="50%">
 <br>
 <br> 
             <label for="">Data de nascimento</label>           
@@ -40,6 +41,9 @@
         </form>
     </div> 
 
+<br>
+<br>
+
     <div class="Alinhamento">
         <form action="">
             <label for="">Estado</label>
@@ -51,7 +55,17 @@
                 <option value="MG">Minas Gerais</option>
                 <option value="MS">Mato Grosso do Sul</option>
             </select>
+            
+            <label for="">Bairro</label>
+            <input type="text" name="Bairro" id="Bairro" size="33.33%" maxlength="50%">
+            <label for="">CEP</label>
+            <input name="CEP" id="CEP" type="text" size="33.33%" maxlength="50%">
+<br><br>
+            <label for="">Cidade</label>
+            <input type="text" name="Cidade" id="Cidade" size="25%" maxlength="50%">
+
         </form>
+    </div>
     </div>
 </body>
 </html>

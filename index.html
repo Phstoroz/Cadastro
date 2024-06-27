@@ -5,67 +5,61 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-    <div class="Alinhamento">  <h1>Faça seu cadastro!</h1> </div>
+    <div class="Alinhamento">  <h1>Cadastre-se</h1> </div>
 
-    <div class="Alinhamento">
+    <div class="container">
+        <br>
+        <p>Dados de login</p>
+
+    <div class="container2">
         <form action="">
-            <label for="">Email</label>
-            <input name="Email" id="Email" type="text" size="33.33%" maxlength="33.33%">
             <label for="">CPF</label>
-            <input name="CPF" id="CPF" type="text" size="33.33%" maxlength="33.33%">
+            <input name="CPF" id="CPF" type="text" size="25%" maxlength="25%">
+            <br>
+            <label for="">Email</label>
+            <input name="Email" id="Email" type="text" size="25%" maxlength="25%">
+            <label for="">Confirmar</label>
+            <input name="cf1" id="cf1" type="text" size="25%" maxlength="35%">
             <label for="">Senha</label>
-            <input name="Pass" id="Pass" type="password" size="33.33%" maxlength="33.33%">
+            <input name="Pass" id="Pass" type="password" size="10%" maxlength="10%">
+            <label for="">Confirmar</label>
+            <input name="cf2" id="cf2" type="password" size="10%" maxlength="10%">
         </form>
     </div> 
 <br>
 <br>
-    <div class="Alinhamento">
+<p class="títulos">Dados de Contato</p>
+    <div class="container2">
         <form action="">
             <label for="">Nome</label>
-            <input name="Nome" id="Nome" type="text" size="50%" maxlength="50%">
-            <label for="">Sobreome</label>
-            <input name="Snome" id="Snome" type="text" size="50%" maxlength="50%">
-<br>
-<br> 
-            <label for="">Data de nascimento</label>           
-            <input name="Date" id="Date" type="date"> 
+            <input name="Nome" id="Nome" type="text" size="65%" maxlength="70%">
+            <label for="">Sobrenome</label>
+            <input name="snome" id="snome" type="text" size="65%" maxlength="70%">
+           <br>
+           <label for="">Nascimento</label>
+            <input name="Nascimento" id="Nascimento" type="text" size="40%" maxlength="40%">
             <label for="">RG</label>
-            <input name="RG" id="RG" type="text">
+            <input name="RG" id="RG" type="text" size="40%" maxlength="40%">
             <label for="">Sexo</label>
             <select name="Sexo" id="Sexo">
                 <option value="M">Masculino</option>
                 <option value="F">Feminino</option>
                 <option value="N">Outro/Prefiro não informar</option>
             </select>
+            <br>
+            <form action="">
+                <label for="">Estado</label>
+                <select name="Estado" id="Estado">
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                </select>
+            
         </form>
     </div> 
-
-<br>
-<br>
-
-    <div class="Alinhamento">
-        <form action="">
-            <label for="">Estado</label>
-            <select name="Estado" id="Estado">
-                <option value="PR">Paraná</option>
-                <option value="SC">Santa Catarina</option>
-                <option value="RS">Rio Grande do Sul</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="MG">Minas Gerais</option>
-                <option value="MS">Mato Grosso do Sul</option>
-            </select>
-            
-            <label for="">Bairro</label>
-            <input type="text" name="Bairro" id="Bairro" size="33.33%" maxlength="50%">
-            <label for="">CEP</label>
-            <input name="CEP" id="CEP" type="text" size="33.33%" maxlength="50%">
-<br><br>
-            <label for="">Cidade</label>
-            <input type="text" name="Cidade" id="Cidade" size="25%" maxlength="50%">
-
-        </form>
-    </div>
     </div>
 </body>
 </html>
